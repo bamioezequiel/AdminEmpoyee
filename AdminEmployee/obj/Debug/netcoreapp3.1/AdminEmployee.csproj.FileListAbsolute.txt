@@ -1,0 +1,16 @@
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.exe
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.deps.json
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.runtimeconfig.json
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.runtimeconfig.dev.json
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\AdminEmployee.pdb
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.Form1.resources
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.csproj.GenerateResource.cache
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.AssemblyInfo.cs
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.pdb
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.genruntimeconfig.cache
