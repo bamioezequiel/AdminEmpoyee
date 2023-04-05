@@ -14,3 +14,13 @@ C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3
 C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.dll
 C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.pdb
 C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.genruntimeconfig.cache
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.PL.frmDepartament.resources
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.PL.frmEmployee.resources
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.csproj.CopyComplete
+C:\Users\Ezequiel\source\repos\AdminEmployee\AdminEmployee\obj\Debug\netcoreapp3.1\AdminEmployee.Properties.Resources.resources

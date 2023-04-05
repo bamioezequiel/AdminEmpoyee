@@ -29,35 +29,37 @@ namespace AdminEmployee
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnDepartament = new System.Windows.Forms.Button();
+            this.btnEmployee = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnDepartament
             // 
-            this.button1.Location = new System.Drawing.Point(12, 46);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 93);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Department";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDepartament.Location = new System.Drawing.Point(12, 46);
+            this.btnDepartament.Name = "btnDepartament";
+            this.btnDepartament.Size = new System.Drawing.Size(162, 93);
+            this.btnDepartament.TabIndex = 0;
+            this.btnDepartament.Text = "Department";
+            this.btnDepartament.UseVisualStyleBackColor = true;
+            this.btnDepartament.Click += new System.EventHandler(this.btnDepartament_Click);
             // 
-            // button2
+            // btnEmployee
             // 
-            this.button2.Location = new System.Drawing.Point(223, 46);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 93);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Employee";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEmployee.Location = new System.Drawing.Point(223, 46);
+            this.btnEmployee.Name = "btnEmployee";
+            this.btnEmployee.Size = new System.Drawing.Size(162, 93);
+            this.btnEmployee.TabIndex = 1;
+            this.btnEmployee.Text = "Employee";
+            this.btnEmployee.UseVisualStyleBackColor = true;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(397, 170);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEmployee);
+            this.Controls.Add(this.btnDepartament);
             this.Name = "Form1";
             this.Text = "Admin Employee";
             this.ResumeLayout(false);
@@ -66,8 +68,8 @@ namespace AdminEmployee
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDepartament;
+        private System.Windows.Forms.Button btnEmployee;
     }
 }
 

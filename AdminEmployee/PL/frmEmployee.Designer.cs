@@ -30,7 +30,7 @@ namespace AdminEmployee.PL
         private void InitializeComponent()
         {
             this.lblID = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtLastname = new System.Windows.Forms.TextBox();
             this.cbxDepartament = new System.Windows.Forms.ComboBox();
@@ -59,12 +59,13 @@ namespace AdminEmployee.PL
             this.lblID.TabIndex = 0;
             this.lblID.Text = "ID:";
             // 
-            // txtId
+            // txtID
             // 
-            this.txtId.Location = new System.Drawing.Point(216, 39);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(96, 23);
-            this.txtId.TabIndex = 1;
+            this.txtID.Location = new System.Drawing.Point(216, 39);
+            this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
+            this.txtID.Size = new System.Drawing.Size(96, 23);
+            this.txtID.TabIndex = 1;
             // 
             // txtName
             // 
@@ -82,6 +83,7 @@ namespace AdminEmployee.PL
             // 
             // cbxDepartament
             // 
+            this.cbxDepartament.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxDepartament.FormattingEnabled = true;
             this.cbxDepartament.Location = new System.Drawing.Point(216, 145);
             this.cbxDepartament.Name = "cbxDepartament";
@@ -129,6 +131,7 @@ namespace AdminEmployee.PL
             this.picImage.Location = new System.Drawing.Point(13, 21);
             this.picImage.Name = "picImage";
             this.picImage.Size = new System.Drawing.Size(182, 193);
+            this.picImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picImage.TabIndex = 12;
             this.picImage.TabStop = false;
             // 
@@ -140,6 +143,7 @@ namespace AdminEmployee.PL
             this.btnExamine.TabIndex = 13;
             this.btnExamine.Text = "Examine";
             this.btnExamine.UseVisualStyleBackColor = true;
+            this.btnExamine.Click += new System.EventHandler(this.btnExamine_Click);
             // 
             // btnAdd
             // 
@@ -149,6 +153,7 @@ namespace AdminEmployee.PL
             this.btnAdd.TabIndex = 14;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -158,6 +163,7 @@ namespace AdminEmployee.PL
             this.btnUpdate.TabIndex = 15;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -167,6 +173,7 @@ namespace AdminEmployee.PL
             this.btnDelete.TabIndex = 16;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnCancel
             // 
@@ -176,15 +183,19 @@ namespace AdminEmployee.PL
             this.btnCancel.TabIndex = 17;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // dgvEmployee
             // 
+            this.dgvEmployee.AllowUserToAddRows = false;
+            this.dgvEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmployee.Location = new System.Drawing.Point(12, 270);
             this.dgvEmployee.Name = "dgvEmployee";
             this.dgvEmployee.RowTemplate.Height = 25;
             this.dgvEmployee.Size = new System.Drawing.Size(653, 168);
             this.dgvEmployee.TabIndex = 18;
+            this.dgvEmployee.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Select);
             // 
             // txtEmail
             // 
@@ -213,10 +224,11 @@ namespace AdminEmployee.PL
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtLastname);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.lblID);
             this.Name = "frmEmployee";
             this.Text = "Employee";
+            this.Load += new System.EventHandler(this.frmEmployee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.ResumeLayout(false);
@@ -227,7 +239,7 @@ namespace AdminEmployee.PL
         #endregion
 
         private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtLastname;
         private System.Windows.Forms.ComboBox cbxDepartament;

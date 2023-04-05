@@ -49,6 +49,7 @@ namespace AdminEmployee.PL
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblID
             // 
@@ -61,6 +62,7 @@ namespace AdminEmployee.PL
             // 
             // txtID
             // 
+            this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(12, 27);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 23);
@@ -90,6 +92,7 @@ namespace AdminEmployee.PL
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -99,6 +102,7 @@ namespace AdminEmployee.PL
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnCancel
             // 
@@ -108,15 +112,19 @@ namespace AdminEmployee.PL
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // dgvDepartament
             // 
+            this.dgvDepartament.AllowUserToAddRows = false;
+            this.dgvDepartament.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDepartament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDepartament.Location = new System.Drawing.Point(12, 116);
             this.dgvDepartament.Name = "dgvDepartament";
             this.dgvDepartament.RowTemplate.Height = 25;
             this.dgvDepartament.Size = new System.Drawing.Size(419, 196);
             this.dgvDepartament.TabIndex = 8;
+            this.dgvDepartament.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Select);
             // 
             // frmDepartament
             // 
