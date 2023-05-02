@@ -4,4 +4,7 @@ El programa cuenta con una interfaz gráfica de usuario (GUI) sencilla y fácil 
 
 <br><br><br>
 
-<iframe src="https://player.vimeo.com/video/822993036?h=de94e2d024&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Project-AdminEmployee-C#"></iframe>
+*Video:*
+
+[![Vista previa del video](https://imgur.com/lQPTRhS.jpg)](https://vimeo.com/822993036?share=copy)
+
